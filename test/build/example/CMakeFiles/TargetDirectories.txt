@@ -1,0 +1,10 @@
+/home/echo/Desktop/test/build/example/CMakeFiles/uninstall.dir
+/home/echo/Desktop/test/build/example/CMakeFiles/example_uninstall.dir
+/home/echo/Desktop/test/build/example/CMakeFiles/example.dir
+/home/echo/Desktop/test/build/example/CMakeFiles/test.dir
+/home/echo/Desktop/test/build/example/CMakeFiles/edit_cache.dir
+/home/echo/Desktop/test/build/example/CMakeFiles/rebuild_cache.dir
+/home/echo/Desktop/test/build/example/CMakeFiles/list_install_components.dir
+/home/echo/Desktop/test/build/example/CMakeFiles/install.dir
+/home/echo/Desktop/test/build/example/CMakeFiles/install/local.dir
+/home/echo/Desktop/test/build/example/CMakeFiles/install/strip.dir

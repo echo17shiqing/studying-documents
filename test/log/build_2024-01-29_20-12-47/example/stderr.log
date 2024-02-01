@@ -1,0 +1,10 @@
+[01m[K/home/echo/Desktop/test/src/example/src/example.cpp:[m[K In member function ‘[01m[Kvoid ExampleNode::callback(turtlesim::msg::Pose_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/echo/Desktop/test/src/example/src/example.cpp:21:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct turtlesim::msg::Pose_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct turtlesim::msg::Pose_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kangular[m[K’
+   21 |     double angular_v=pose->[01;31m[Kangular[m[K;
+      |                            [01;31m[K^~~~~~~[m[K
+[01m[K/home/echo/Desktop/test/src/example/src/example.cpp:22:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct turtlesim::msg::Pose_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct turtlesim::msg::Pose_<std::allocator<void> >[m[K’} has no member named ‘[01m[Klinear[m[K’
+   22 |     double linear_v=pose->[01;31m[Klinear[m[K;
+      |                           [01;31m[K^~~~~~[m[K
+gmake[2]: *** [CMakeFiles/example.dir/build.make:76: CMakeFiles/example.dir/src/example.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/example.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

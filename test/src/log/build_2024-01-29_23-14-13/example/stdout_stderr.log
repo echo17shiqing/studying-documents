@@ -1,0 +1,4 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/example.dir/src/example.cpp.o[0m
+gmake[2]: *** [CMakeFiles/example.dir/build.make:76: CMakeFiles/example.dir/src/example.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/example.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

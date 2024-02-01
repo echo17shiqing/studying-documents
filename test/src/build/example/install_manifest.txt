@@ -1,0 +1,16 @@
+/home/echo/Desktop/test/src/install/example/share/ament_index/resource_index/package_run_dependencies/example
+/home/echo/Desktop/test/src/install/example/share/ament_index/resource_index/parent_prefix_path/example
+/home/echo/Desktop/test/src/install/example/share/example/environment/ament_prefix_path.sh
+/home/echo/Desktop/test/src/install/example/share/example/environment/ament_prefix_path.dsv
+/home/echo/Desktop/test/src/install/example/share/example/environment/path.sh
+/home/echo/Desktop/test/src/install/example/share/example/environment/path.dsv
+/home/echo/Desktop/test/src/install/example/share/example/local_setup.bash
+/home/echo/Desktop/test/src/install/example/share/example/local_setup.sh
+/home/echo/Desktop/test/src/install/example/share/example/local_setup.zsh
+/home/echo/Desktop/test/src/install/example/share/example/local_setup.dsv
+/home/echo/Desktop/test/src/install/example/share/example/package.dsv
+/home/echo/Desktop/test/src/install/example/share/ament_index/resource_index/packages/example
+/home/echo/Desktop/test/src/install/example/share/example/cmake/exampleConfig.cmake
+/home/echo/Desktop/test/src/install/example/share/example/cmake/exampleConfig-version.cmake
+/home/echo/Desktop/test/src/install/example/share/example/package.xml
+/home/echo/Desktop/test/src/install/example/lib/example/example

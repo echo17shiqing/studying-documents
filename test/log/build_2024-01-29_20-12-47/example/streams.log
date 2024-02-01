@@ -1,0 +1,13 @@
+[0.165s] Invoking command in '/home/echo/Desktop/test/build/example': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --build /home/echo/Desktop/test/build/example -- -j12 -l12
+[0.344s] [ 50%] [32mBuilding CXX object CMakeFiles/example.dir/src/example.cpp.o[0m
+[7.160s] [01m[K/home/echo/Desktop/test/src/example/src/example.cpp:[m[K In member function ‘[01m[Kvoid ExampleNode::callback(turtlesim::msg::Pose_<std::allocator<void> >::SharedPtr)[m[K’:
+[7.180s] [01m[K/home/echo/Desktop/test/src/example/src/example.cpp:21:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct turtlesim::msg::Pose_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct turtlesim::msg::Pose_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kangular[m[K’
+[7.180s]    21 |     double angular_v=pose->[01;31m[Kangular[m[K;
+[7.180s]       |                            [01;31m[K^~~~~~~[m[K
+[7.180s] [01m[K/home/echo/Desktop/test/src/example/src/example.cpp:22:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct turtlesim::msg::Pose_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct turtlesim::msg::Pose_<std::allocator<void> >[m[K’} has no member named ‘[01m[Klinear[m[K’
+[7.180s]    22 |     double linear_v=pose->[01;31m[Klinear[m[K;
+[7.180s]       |                           [01;31m[K^~~~~~[m[K
+[14.101s] gmake[2]: *** [CMakeFiles/example.dir/build.make:76: CMakeFiles/example.dir/src/example.cpp.o] Error 1
+[14.102s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/example.dir/all] Error 2
+[14.102s] gmake: *** [Makefile:146: all] Error 2
+[14.109s] Invoked command in '/home/echo/Desktop/test/build/example' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --build /home/echo/Desktop/test/build/example -- -j12 -l12

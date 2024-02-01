@@ -1,0 +1,8 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/example.dir/src/example.cpp.o[0m
+[01m[K/home/echo/Desktop/test/src/example/src/example.cpp:3:9:[m[K [01;31m[Kfatal error: [m[Kturtlesim/msg/Pose.h: No such file or directory
+    3 | #include[01;31m[K"turtlesim/msg/Pose.h"[m[K
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/example.dir/build.make:76: CMakeFiles/example.dir/src/example.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/example.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

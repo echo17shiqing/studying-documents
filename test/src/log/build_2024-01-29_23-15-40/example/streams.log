@@ -1,0 +1,25 @@
+[0.213s] Invoking command in '/home/echo/Desktop/test/src/build/example': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake --build /home/echo/Desktop/test/src/build/example -- -j12 -l12
+[0.369s] [ 50%] [32mBuilding CXX object CMakeFiles/example.dir/src/example.cpp.o[0m
+[30.519s] [100%] [32m[1mLinking CXX executable example[0m
+[31.820s] [100%] Built target example
+[31.842s] Invoked command in '/home/echo/Desktop/test/src/build/example' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake --build /home/echo/Desktop/test/src/build/example -- -j12 -l12
+[31.979s] Invoking command in '/home/echo/Desktop/test/src/build/example': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake --install /home/echo/Desktop/test/src/build/example
+[31.992s] -- Install configuration: ""
+[31.992s] -- Up-to-date: /home/echo/Desktop/test/src/install/example/share/ament_index/resource_index/package_run_dependencies/example
+[31.994s] -- Up-to-date: /home/echo/Desktop/test/src/install/example/share/ament_index/resource_index/parent_prefix_path/example
+[31.994s] -- Up-to-date: /home/echo/Desktop/test/src/install/example/share/example/environment/ament_prefix_path.sh
+[31.995s] -- Up-to-date: /home/echo/Desktop/test/src/install/example/share/example/environment/ament_prefix_path.dsv
+[31.995s] -- Up-to-date: /home/echo/Desktop/test/src/install/example/share/example/environment/path.sh
+[31.995s] -- Up-to-date: /home/echo/Desktop/test/src/install/example/share/example/environment/path.dsv
+[31.995s] -- Up-to-date: /home/echo/Desktop/test/src/install/example/share/example/local_setup.bash
+[31.996s] -- Up-to-date: /home/echo/Desktop/test/src/install/example/share/example/local_setup.sh
+[31.996s] -- Up-to-date: /home/echo/Desktop/test/src/install/example/share/example/local_setup.zsh
+[31.996s] -- Up-to-date: /home/echo/Desktop/test/src/install/example/share/example/local_setup.dsv
+[31.996s] -- Installing: /home/echo/Desktop/test/src/install/example/share/example/package.dsv
+[31.997s] -- Up-to-date: /home/echo/Desktop/test/src/install/example/share/ament_index/resource_index/packages/example
+[31.997s] -- Up-to-date: /home/echo/Desktop/test/src/install/example/share/example/cmake/exampleConfig.cmake
+[31.997s] -- Up-to-date: /home/echo/Desktop/test/src/install/example/share/example/cmake/exampleConfig-version.cmake
+[31.997s] -- Up-to-date: /home/echo/Desktop/test/src/install/example/share/example/package.xml
+[31.998s] -- Installing: /home/echo/Desktop/test/src/install/example/lib/example/example
+[32.013s] -- Set non-toolchain portion of runtime path of "/home/echo/Desktop/test/src/install/example/lib/example/example" to ""
+[32.022s] Invoked command in '/home/echo/Desktop/test/src/build/example' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake --install /home/echo/Desktop/test/src/build/example

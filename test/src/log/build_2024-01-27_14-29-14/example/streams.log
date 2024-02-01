@@ -1,0 +1,31 @@
+[0.183s] Invoking command in '/home/echo/Desktop/test/src/build/example': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --build /home/echo/Desktop/test/src/build/example -- -j12 -l12
+[0.258s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.086s] -- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)
+[1.203s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.220s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.253s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.309s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.372s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.609s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.615s] -- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.075s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.778s] [31mCMake Error at CMakeLists.txt:11 (find_package):
+[2.779s]   By not providing "Findturtlesim/msg/PoseConfig.cmake" in CMAKE_MODULE_PATH
+[2.779s]   this project has asked CMake to find a package configuration file provided
+[2.779s]   by "turtlesim/msg/PoseConfig", but CMake did not find one.
+[2.779s] 
+[2.780s]   Could not find a package configuration file provided by
+[2.780s]   "turtlesim/msg/PoseConfig" with any of the following names:
+[2.780s] 
+[2.780s]     turtlesim/msg/PoseConfigConfig.cmake
+[2.780s]     turtlesim/msg/poseconfig-config.cmake
+[2.780s] 
+[2.781s]   Add the installation prefix of "turtlesim/msg/PoseConfig" to
+[2.781s]   CMAKE_PREFIX_PATH or set "turtlesim/msg/PoseConfig_DIR" to a directory
+[2.781s]   containing one of the above files.  If "turtlesim/msg/PoseConfig" provides
+[2.781s]   a separate development package or SDK, be sure it has been installed.
+[2.782s] 
+[2.782s] [0m
+[2.782s] -- Configuring incomplete, errors occurred!
+[2.813s] gmake: *** [Makefile:267: cmake_check_build_system] Error 1
+[2.814s] Invoked command in '/home/echo/Desktop/test/src/build/example' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --build /home/echo/Desktop/test/src/build/example -- -j12 -l12

@@ -1,0 +1,349 @@
+[0.000000] (-) TimerEvent: {}
+[0.005346] (example) JobQueued: {'identifier': 'example', 'dependencies': OrderedDict()}
+[0.005613] (example) JobStarted: {'identifier': 'example'}
+[0.091536] (-) TimerEvent: {}
+[0.185139] (example) JobProgress: {'identifier': 'example', 'progress': 'cmake'}
+[0.189610] (example) JobProgress: {'identifier': 'example', 'progress': 'build'}
+[0.193302] (example) Command: {'cmd': ['/usr/local/bin/cmake', '--build', '/home/echo/Desktop/test/src/build/example', '--', '-j12', '-l12'], 'cwd': '/home/echo/Desktop/test/src/build/example', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en'), ('USER', 'echo'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/echo'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.84.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1738'), ('SYSTEMD_EXEC_PID', '1893'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5332'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'echo'), ('JOURNAL_STREAM', '8:43010'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', ':/usr/local/lib/pkgconfig:/usr/local/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'echo'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/echo:@/tmp/.ICE-unix/1870,unix/echo:/tmp/.ICE-unix/1870'), ('INVOCATION_ID', 'e8c3e29f82214d8cb2a2cfbed42354e5'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.NFK8H2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-97149565e9.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/echo/Desktop/test/src/build/example'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.204410] (-) TimerEvent: {}
+[0.273673] (example) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.304868] (-) TimerEvent: {}
+[0.406342] (-) TimerEvent: {}
+[0.506791] (-) TimerEvent: {}
+[0.607584] (-) TimerEvent: {}
+[0.710148] (-) TimerEvent: {}
+[0.812088] (-) TimerEvent: {}
+[0.913416] (-) TimerEvent: {}
+[1.014719] (-) TimerEvent: {}
+[1.068173] (example) StdoutLine: {'line': b'-- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.115453] (-) TimerEvent: {}
+[1.167226] (example) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.174712] (example) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.199200] (example) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.215888] (-) TimerEvent: {}
+[1.239400] (example) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.301628] (example) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.316651] (-) TimerEvent: {}
+[1.418038] (-) TimerEvent: {}
+[1.508474] (example) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.512258] (example) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.518580] (-) TimerEvent: {}
+[1.619361] (-) TimerEvent: {}
+[1.720988] (-) TimerEvent: {}
+[1.822569] (-) TimerEvent: {}
+[1.876811] (example) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.923213] (-) TimerEvent: {}
+[2.024910] (-) TimerEvent: {}
+[2.125975] (-) TimerEvent: {}
+[2.230832] (-) TimerEvent: {}
+[2.331949] (-) TimerEvent: {}
+[2.394909] (example) StdoutLine: {'line': b'-- Found turtlesim: 1.4.2 (/opt/ros/humble/share/turtlesim/cmake)\n'}
+[2.432468] (-) TimerEvent: {}
+[2.534727] (-) TimerEvent: {}
+[2.635656] (-) TimerEvent: {}
+[2.737644] (-) TimerEvent: {}
+[2.838820] (-) TimerEvent: {}
+[2.849136] (example) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.939706] (-) TimerEvent: {}
+[3.041148] (-) TimerEvent: {}
+[3.111403] (example) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[3.112533] (example) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[3.112730] (example) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[3.113966] (example) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.115321] (example) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[3.115815] (example) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[3.116819] (example) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.126199] (example) StdoutLine: {'line': b'-- Configuring done (2.9s)\n'}
+[3.142221] (-) TimerEvent: {}
+[3.179270] (example) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[3.189952] (example) StdoutLine: {'line': b'-- Build files have been written to: /home/echo/Desktop/test/src/build/example\n'}
+[3.243056] (-) TimerEvent: {}
+[3.286381] (example) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/example.dir/src/example.cpp.o\x1b[0m\n'}
+[3.343294] (-) TimerEvent: {}
+[3.444095] (-) TimerEvent: {}
+[3.545020] (-) TimerEvent: {}
+[3.646607] (-) TimerEvent: {}
+[3.749621] (-) TimerEvent: {}
+[3.851314] (-) TimerEvent: {}
+[3.952223] (-) TimerEvent: {}
+[4.054592] (-) TimerEvent: {}
+[4.155663] (-) TimerEvent: {}
+[4.258056] (-) TimerEvent: {}
+[4.360129] (-) TimerEvent: {}
+[4.460850] (-) TimerEvent: {}
+[4.561575] (-) TimerEvent: {}
+[4.662831] (-) TimerEvent: {}
+[4.763375] (-) TimerEvent: {}
+[4.864980] (-) TimerEvent: {}
+[4.979970] (-) TimerEvent: {}
+[5.081225] (-) TimerEvent: {}
+[5.183358] (-) TimerEvent: {}
+[5.284393] (-) TimerEvent: {}
+[5.385124] (-) TimerEvent: {}
+[5.493493] (-) TimerEvent: {}
+[5.594432] (-) TimerEvent: {}
+[5.697247] (-) TimerEvent: {}
+[5.798119] (-) TimerEvent: {}
+[5.900151] (-) TimerEvent: {}
+[6.001772] (-) TimerEvent: {}
+[6.105860] (-) TimerEvent: {}
+[6.209043] (-) TimerEvent: {}
+[6.310636] (-) TimerEvent: {}
+[6.412436] (-) TimerEvent: {}
+[6.514059] (-) TimerEvent: {}
+[6.615294] (-) TimerEvent: {}
+[6.716530] (-) TimerEvent: {}
+[6.818057] (-) TimerEvent: {}
+[6.920053] (-) TimerEvent: {}
+[7.021758] (-) TimerEvent: {}
+[7.123987] (-) TimerEvent: {}
+[7.224828] (-) TimerEvent: {}
+[7.326571] (-) TimerEvent: {}
+[7.428484] (-) TimerEvent: {}
+[7.530234] (-) TimerEvent: {}
+[7.632256] (-) TimerEvent: {}
+[7.734005] (-) TimerEvent: {}
+[7.835702] (-) TimerEvent: {}
+[7.936999] (-) TimerEvent: {}
+[8.038959] (-) TimerEvent: {}
+[8.141245] (-) TimerEvent: {}
+[8.242443] (-) TimerEvent: {}
+[8.343433] (-) TimerEvent: {}
+[8.447061] (-) TimerEvent: {}
+[8.550265] (-) TimerEvent: {}
+[8.650951] (-) TimerEvent: {}
+[8.753298] (-) TimerEvent: {}
+[8.854074] (-) TimerEvent: {}
+[8.956986] (-) TimerEvent: {}
+[9.058363] (-) TimerEvent: {}
+[9.160816] (-) TimerEvent: {}
+[9.261845] (-) TimerEvent: {}
+[9.363342] (-) TimerEvent: {}
+[9.464192] (-) TimerEvent: {}
+[9.564978] (-) TimerEvent: {}
+[9.665925] (-) TimerEvent: {}
+[9.767580] (-) TimerEvent: {}
+[9.869139] (-) TimerEvent: {}
+[9.971044] (-) TimerEvent: {}
+[10.072720] (-) TimerEvent: {}
+[10.173972] (-) TimerEvent: {}
+[10.275044] (-) TimerEvent: {}
+[10.376296] (-) TimerEvent: {}
+[10.476963] (-) TimerEvent: {}
+[10.578349] (-) TimerEvent: {}
+[10.680579] (-) TimerEvent: {}
+[10.781491] (-) TimerEvent: {}
+[10.882807] (-) TimerEvent: {}
+[10.984776] (-) TimerEvent: {}
+[11.086243] (-) TimerEvent: {}
+[11.187573] (-) TimerEvent: {}
+[11.288720] (-) TimerEvent: {}
+[11.390293] (-) TimerEvent: {}
+[11.491678] (-) TimerEvent: {}
+[11.593219] (-) TimerEvent: {}
+[11.695743] (-) TimerEvent: {}
+[11.798096] (-) TimerEvent: {}
+[11.898877] (-) TimerEvent: {}
+[12.000137] (-) TimerEvent: {}
+[12.101737] (-) TimerEvent: {}
+[12.203110] (-) TimerEvent: {}
+[12.304736] (-) TimerEvent: {}
+[12.406730] (-) TimerEvent: {}
+[12.507695] (-) TimerEvent: {}
+[12.609246] (-) TimerEvent: {}
+[12.710224] (-) TimerEvent: {}
+[12.811541] (-) TimerEvent: {}
+[12.913275] (-) TimerEvent: {}
+[13.014852] (-) TimerEvent: {}
+[13.117740] (-) TimerEvent: {}
+[13.223432] (-) TimerEvent: {}
+[13.324866] (-) TimerEvent: {}
+[13.426215] (-) TimerEvent: {}
+[13.528522] (-) TimerEvent: {}
+[13.629455] (-) TimerEvent: {}
+[13.730468] (-) TimerEvent: {}
+[13.781094] (example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/echo/Desktop/test/src/example/src/example.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid ExampleNode::callback(turtlesim::msg::Pose_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[13.781810] (example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/echo/Desktop/test/src/example/src/example.cpp:20:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[13.782248] (example) StderrLine: {'line': b'   20 |    dx=\x1b[01;31m\x1b[Kmsg\x1b[m\x1b[K->x;\n'}
+[13.782481] (example) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[13.787602] (example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/echo/Desktop/test/src/example/src/example.cpp:20:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Ksuggested alternatives:\n'}
+[13.789516] (example) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/duration.hpp:7\x1b[m\x1b[K,\n'}
+[13.789758] (example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/duration.hpp:20\x1b[m\x1b[K,\n'}
+[13.789950] (example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/qos.hpp:20\x1b[m\x1b[K,\n'}
+[13.790137] (example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_graph_interface.hpp:32\x1b[m\x1b[K,\n'}
+[13.790416] (example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:42\x1b[m\x1b[K,\n'}
+[13.790705] (example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[13.790931] (example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[13.791108] (example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[13.791247] (example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[13.791394] (example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[13.791586] (example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[13.792218] (example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[13.792451] (example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[13.792631] (example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[13.792805] (example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/echo/Desktop/test/src/example/src/example.cpp:1\x1b[m\x1b[K:\n'}
+[13.793001] (example) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__struct.hpp:27:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kbuiltin_interfaces::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[13.793182] (example) StderrLine: {'line': b'   27 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[13.793346] (example) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[13.793504] (example) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/set_parameters_result.hpp:7\x1b[m\x1b[K,\n'}
+[13.793670] (example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/qos_overriding_options.hpp:28\x1b[m\x1b[K,\n'}
+[13.793828] (example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/subscription_options.hpp:30\x1b[m\x1b[K,\n'}
+[13.794837] (example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:45\x1b[m\x1b[K,\n'}
+[13.795097] (example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25\x1b[m\x1b[K,\n'}
+[13.795362] (example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[13.795588] (example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[13.796080] (example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[13.796387] (example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[13.796750] (example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[13.797041] (example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[13.797416] (example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[13.797584] (example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/echo/Desktop/test/src/example/src/example.cpp:1\x1b[m\x1b[K:\n'}
+[13.797856] (example) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__struct.hpp:27:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Krcl_interfaces::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[13.798139] (example) StderrLine: {'line': b'   27 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[13.798496] (example) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[13.798790] (example) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__struct.hpp:23\x1b[m\x1b[K,\n'}
+[13.798937] (example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/metrics_message.hpp:7\x1b[m\x1b[K,\n'}
+[13.799196] (example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/generate_statistics_message.hpp:21\x1b[m\x1b[K,\n'}
+[13.799396] (example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:23\x1b[m\x1b[K,\n'}
+[13.799732] (example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:50\x1b[m\x1b[K,\n'}
+[13.800369] (example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25\x1b[m\x1b[K,\n'}
+[13.800528] (example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[13.800811] (example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[13.800976] (example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[13.801126] (example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[13.801271] (example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[13.801405] (example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[13.801558] (example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[13.801844] (example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/echo/Desktop/test/src/example/src/example.cpp:1\x1b[m\x1b[K:\n'}
+[13.802044] (example) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__struct.hpp:27:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstatistics_msgs::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[13.802231] (example) StderrLine: {'line': b'   27 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[13.802404] (example) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[13.802575] (example) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/turtlesim/turtlesim/msg/pose.hpp:7\x1b[m\x1b[K,\n'}
+[13.802783] (example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/echo/Desktop/test/src/example/src/example.cpp:3\x1b[m\x1b[K:\n'}
+[13.802963] (example) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/turtlesim/turtlesim/msg/detail/pose__struct.hpp:27:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kturtlesim::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[13.803256] (example) StderrLine: {'line': b'   27 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[13.803440] (example) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[13.803676] (example) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[13.803817] (example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[13.804203] (example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[13.804461] (example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[13.804623] (example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[13.805165] (example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[13.805292] (example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[13.805355] (example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[13.805407] (example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[13.805458] (example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[13.805508] (example) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/echo/Desktop/test/src/example/src/example.cpp:1\x1b[m\x1b[K:\n'}
+[13.805562] (example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/echo/Desktop/test/src/example/src/example.cpp:27:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K,\x1b[m\x1b[K\xe2\x80\x99 or \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kdo\x1b[m\x1b[K\xe2\x80\x99\n'}
+[13.805624] (example) StderrLine: {'line': b'   27 |     \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this->get_logger(),"\xe5\x81\x8f\xe8\xa7\x92:%.2f,\xe8\xb7\x9d\xe7\xa6\xbb:%.2f",_angle1,_distance);\n'}
+[13.807142] (example) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[13.807588] (example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/echo/Desktop/test/src/example/src/example.cpp:25:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[K_angle1\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[13.808065] (example) StderrLine: {'line': b'   25 |     double \x1b[01;35m\x1b[K_angle1\x1b[m\x1b[K=_angle*180/3.14;//\xe5\x81\x8f\xe8\xa7\x92\n'}
+[13.808330] (example) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[13.808491] (example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/echo/Desktop/test/src/example/src/example.cpp:26:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[K_distance\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[13.808695] (example) StderrLine: {'line': b'   26 |     double \x1b[01;35m\x1b[K_distance\x1b[m\x1b[K=std::sqrt(pow(dx,2)+pow(dy,2))//\xe8\xb7\x9d\xe7\xa6\xbb\n'}
+[13.808997] (example) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[13.809255] (example) StderrLine: {'line': b'\x1b[01m\x1b[K/home/echo/Desktop/test/src/example/src/example.cpp:17:53:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kpose\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[13.809569] (example) StderrLine: {'line': b'   17 | void callback(\x1b[01;35m\x1b[Kconst turtlesim::msg::Pose::SharedPtr pose\x1b[m\x1b[K)\n'}
+[13.809868] (example) StderrLine: {'line': b'      |               \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[13.831096] (-) TimerEvent: {}
+[13.932133] (-) TimerEvent: {}
+[14.033760] (-) TimerEvent: {}
+[14.134850] (-) TimerEvent: {}
+[14.235547] (-) TimerEvent: {}
+[14.337635] (-) TimerEvent: {}
+[14.438619] (-) TimerEvent: {}
+[14.539924] (-) TimerEvent: {}
+[14.641182] (-) TimerEvent: {}
+[14.744028] (-) TimerEvent: {}
+[14.845300] (-) TimerEvent: {}
+[14.946271] (-) TimerEvent: {}
+[15.047417] (-) TimerEvent: {}
+[15.149719] (-) TimerEvent: {}
+[15.250837] (-) TimerEvent: {}
+[15.352895] (-) TimerEvent: {}
+[15.454436] (-) TimerEvent: {}
+[15.556205] (-) TimerEvent: {}
+[15.657532] (-) TimerEvent: {}
+[15.758722] (-) TimerEvent: {}
+[15.860237] (-) TimerEvent: {}
+[15.961281] (-) TimerEvent: {}
+[16.062277] (-) TimerEvent: {}
+[16.163890] (-) TimerEvent: {}
+[16.264581] (-) TimerEvent: {}
+[16.368075] (-) TimerEvent: {}
+[16.469509] (-) TimerEvent: {}
+[16.570548] (-) TimerEvent: {}
+[16.671710] (-) TimerEvent: {}
+[16.772785] (-) TimerEvent: {}
+[16.874404] (-) TimerEvent: {}
+[16.975366] (-) TimerEvent: {}
+[17.076117] (-) TimerEvent: {}
+[17.177051] (-) TimerEvent: {}
+[17.278585] (-) TimerEvent: {}
+[17.380252] (-) TimerEvent: {}
+[17.481335] (-) TimerEvent: {}
+[17.582843] (-) TimerEvent: {}
+[17.684996] (-) TimerEvent: {}
+[17.786136] (-) TimerEvent: {}
+[17.887416] (-) TimerEvent: {}
+[17.989257] (-) TimerEvent: {}
+[18.090864] (-) TimerEvent: {}
+[18.192547] (-) TimerEvent: {}
+[18.293431] (-) TimerEvent: {}
+[18.395231] (-) TimerEvent: {}
+[18.496082] (-) TimerEvent: {}
+[18.597448] (-) TimerEvent: {}
+[18.699520] (-) TimerEvent: {}
+[18.800874] (-) TimerEvent: {}
+[18.901964] (-) TimerEvent: {}
+[19.004344] (-) TimerEvent: {}
+[19.106766] (-) TimerEvent: {}
+[19.208301] (-) TimerEvent: {}
+[19.309463] (-) TimerEvent: {}
+[19.411114] (-) TimerEvent: {}
+[19.512075] (-) TimerEvent: {}
+[19.613644] (-) TimerEvent: {}
+[19.714594] (-) TimerEvent: {}
+[19.815307] (-) TimerEvent: {}
+[19.917105] (-) TimerEvent: {}
+[20.018806] (-) TimerEvent: {}
+[20.120869] (-) TimerEvent: {}
+[20.222164] (-) TimerEvent: {}
+[20.323158] (-) TimerEvent: {}
+[20.423990] (-) TimerEvent: {}
+[20.524842] (-) TimerEvent: {}
+[20.626129] (-) TimerEvent: {}
+[20.728064] (-) TimerEvent: {}
+[20.829254] (-) TimerEvent: {}
+[20.930367] (-) TimerEvent: {}
+[21.031361] (-) TimerEvent: {}
+[21.132781] (-) TimerEvent: {}
+[21.234687] (-) TimerEvent: {}
+[21.336346] (-) TimerEvent: {}
+[21.437674] (-) TimerEvent: {}
+[21.538492] (-) TimerEvent: {}
+[21.640490] (-) TimerEvent: {}
+[21.746127] (-) TimerEvent: {}
+[21.847804] (-) TimerEvent: {}
+[21.949718] (-) TimerEvent: {}
+[22.051483] (-) TimerEvent: {}
+[22.152397] (-) TimerEvent: {}
+[22.256104] (-) TimerEvent: {}
+[22.357838] (-) TimerEvent: {}
+[22.459967] (-) TimerEvent: {}
+[22.561335] (-) TimerEvent: {}
+[22.662854] (-) TimerEvent: {}
+[22.763963] (-) TimerEvent: {}
+[22.865111] (-) TimerEvent: {}
+[22.966554] (-) TimerEvent: {}
+[23.068318] (-) TimerEvent: {}
+[23.071939] (example) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/example.dir/build.make:76: CMakeFiles/example.dir/src/example.cpp.o] Error 1\n'}
+[23.072418] (example) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/example.dir/all] Error 2\n'}
+[23.073639] (example) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[23.084095] (example) CommandEnded: {'returncode': 2}
+[23.169191] (-) TimerEvent: {}
+[23.270795] (-) TimerEvent: {}
+[23.365956] (example) JobEnded: {'identifier': 'example', 'rc': 2}
+[23.372249] (-) TimerEvent: {}
+[23.377106] (-) EventReactorShutdown: {}
